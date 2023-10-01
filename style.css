@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand' ,sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(background.jpg);
+    background-size: cover;
+    border: 1px solid #ffffff20;
+}
+.card{
+    position:absolute;
+    width:480px;
+    color:#fff;
+    background: rgb(0,0,0,0.43);
+    border-radius: 1rem;
+    padding:1.3rem;
+    box-shadow: 0px 4px 30px rgb(0,0,0,0.1);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+}
+.card header{
+    cursor: all-scroll;
+    text-align: center;
+    user-select: none;
+    padding: 1.5rem;
+    border-bottom: 1px solid black;
+}
+.card .card-body{
+    padding: 1.5rem;
+    border-bottom: 1px solid black;
+}
+.card .card-body .my-pic {
+    text-align: center;
+}
+.card .card-body .my-pic h4{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.card .card-body .my-pic img{
+    max-width: 130px;
+}
+
+.card .card-body a{
+    display: inline-block;
+    background-color: #f44336;
+    color:#fff;
+    text-decoration: none;
+    padding: 0.2rem, 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 16
+   
+}
+.card .card-body h4{
+    margin-top: 10px;
+}
+
+.card .card-body ul{
+    margin-top: 10px;
+}
+
+.card footer{
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+    margin-top: 1rem;
+
+}
+.card footer button{
+    padding : 0.5rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    background-color: #f44336;
+    font-weight: bold;
+    font-size: 16px;
+}
+.card footer button:hover{
+    color:#fff;
+}
